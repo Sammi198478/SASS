@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+$z: 1;
+@while $z <= 6{
+    .paragraph-#{$z}{
+        font-size: $z * 10px;
+    }
+    $z: $z + 1
+
+}
+
+
+
+
+
+
+
+
+
